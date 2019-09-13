@@ -1,3 +1,5 @@
+require 'pry'
+
 def roll_call_dwarves(dwarves)
   dwarves.each_with_index.map{|d, idx| puts (idx + 1).to_s + ". #{d}"}
 end
