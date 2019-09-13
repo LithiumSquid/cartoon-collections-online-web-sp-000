@@ -17,7 +17,8 @@ def find_the_cheese(ingredients)
       while i < ingredients.length
       if cheese_types.include?(ingredients[i])
         return ingredients[i]
-      else 
+      else
+        return nil
         i = i + 1
       end
   end
