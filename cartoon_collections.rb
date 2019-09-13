@@ -6,8 +6,8 @@ end
 
 def summon_captain_planet(elements)
   elements.map do |e|
-    binding.pry
-    puts e.capitalize + "!"
+    # binding.pry
+    e.capitalize + "!"
   end
 end
 
